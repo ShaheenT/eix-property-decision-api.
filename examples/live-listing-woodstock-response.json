@@ -1,0 +1,1071 @@
+{
+  "id": "dec_5c0a3c3a1b154550b9d1",
+  "schemaVersion": "1.0",
+  "engineVersion": "1.0.0",
+  "generatedAt": "2026-09-21T10:03:10.478Z",
+  "property": {
+    "address": "42 Queens Rd, Woodstock",
+    "title": "4 Bedroom House for sale in Woodstock - 42 Queens Rd - P24-117106348",
+    "suburb": "Woodstock",
+    "city": "Cape Town",
+    "propertyType": "house",
+    "titleType": "unknown",
+    "askingPrice": 4750000
+  },
+  "verdict": {
+    "code": "GATHER_EVIDENCE",
+    "status": "Gather evidence",
+    "summary": "Nothing here proves the price is fair yet. Add recent comparable sales before you make an offer.",
+    "readiness": 47
+  },
+  "scorecard": {
+    "scoringVersion": "2026.1",
+    "investmentScore": {
+      "value": 39,
+      "band": "Weak",
+      "provisional": true,
+      "components": [
+        {
+          "key": "price_position",
+          "label": "Price against municipal value",
+          "weightPercent": 31,
+          "score": 0,
+          "basis": "asking 74.8% above the municipal value bracket"
+        },
+        {
+          "key": "affordability",
+          "label": "Affordability",
+          "weightPercent": 38,
+          "score": 97,
+          "basis": "bond is 21% of gross income"
+        },
+        {
+          "key": "property_risks",
+          "label": "Property and deal risks",
+          "weightPercent": 31,
+          "score": 5,
+          "basis": "10 flags raised"
+        }
+      ]
+    },
+    "riskScore": {
+      "value": 71,
+      "band": "High",
+      "provisional": true,
+      "drivers": [
+        "Marketed as 4 self-contained units in a house",
+        "Part of the property is let short-term",
+        "A tenant is in occupation",
+        "The listing states an income of R 40 000 a month",
+        "The stated income does not cover the bond of R 42 681 at your deposit and rate, before rates, insurance, upkeep or operating costs",
+        "Asking is 63% to 89% above the R 2 515 093 to R 2 919 938 municipal value implied by the rates bill",
+        "Period features suggest an older house"
+      ]
+    },
+    "confidence": {
+      "percent": 53,
+      "band": "Moderate",
+      "areas": [
+        {
+          "area": "Asking price",
+          "pts": 10,
+          "max": 10,
+          "status": "established"
+        },
+        {
+          "area": "Physical facts",
+          "pts": 20,
+          "max": 20,
+          "status": "established"
+        },
+        {
+          "area": "Rates",
+          "pts": 5,
+          "max": 5,
+          "status": "established"
+        },
+        {
+          "area": "Levy and title type",
+          "pts": 0,
+          "max": 10,
+          "status": "missing"
+        },
+        {
+          "area": "Price evidence",
+          "pts": 8,
+          "max": 30,
+          "status": "partial"
+        },
+        {
+          "area": "Rental evidence",
+          "pts": 0,
+          "max": 15,
+          "status": "missing"
+        },
+        {
+          "area": "Buyer finances",
+          "pts": 10,
+          "max": 10,
+          "status": "established"
+        }
+      ]
+    },
+    "decision": {
+      "label": "PROCEED WITH CAUTION",
+      "reasons": [
+        "Asking is R 4 750 000 against a municipal value bracket of R 2 515 093 to R 2 919 938; no usable comparable sales were supplied.",
+        "The bond is 21% of gross income.",
+        "Confidence is 53%, so this is provisional until the missing evidence is added.",
+        "Marketed as 4 self-contained units in a house."
+      ],
+      "nextStep": "Add the missing evidence first: price evidence and rental evidence."
+    },
+    "rental": null
+  },
+  "marketData": {
+    "source": "none",
+    "status": "ok",
+    "salesReceived": 0,
+    "rentalsReceived": 0
+  },
+  "displayGuidance": {
+    "investmentScore": "show_as_provisional",
+    "decisionLabel": "show_as_provisional",
+    "priceVerdict": "hide",
+    "rentEstimate": "hide",
+    "yieldAndCashFlow": "hide",
+    "neighbourhoodFit": "hide",
+    "requiredNotices": [
+      "Provisional: this result rests on 53% of the evidence a full decision needs, and the price is not yet checked against comparable sales.",
+      "No price verdict is shown because there is not enough comparable evidence.",
+      "The income figure comes from the listing agent and is unverified."
+    ]
+  },
+  "neighbourhood": {
+    "status": "partial",
+    "location": null,
+    "archetype": null,
+    "dimensions": [
+      {
+        "key": "walkability",
+        "label": "Walkability",
+        "score": null,
+        "source": "not_established",
+        "evidence": "No coordinates: the listing has none and none were supplied"
+      },
+      {
+        "key": "transport",
+        "label": "Public transport",
+        "score": null,
+        "source": "not_established",
+        "evidence": "No coordinates: the listing has none and none were supplied"
+      },
+      {
+        "key": "education",
+        "label": "Schools nearby",
+        "score": null,
+        "source": "not_established",
+        "evidence": "No coordinates: the listing has none and none were supplied"
+      },
+      {
+        "key": "lifestyle",
+        "label": "Lifestyle and dining",
+        "score": null,
+        "source": "not_established",
+        "evidence": "No coordinates: the listing has none and none were supplied"
+      },
+      {
+        "key": "greenSpace",
+        "label": "Green space",
+        "score": null,
+        "source": "not_established",
+        "evidence": "No coordinates: the listing has none and none were supplied"
+      },
+      {
+        "key": "health",
+        "label": "Healthcare access",
+        "score": null,
+        "source": "not_established",
+        "evidence": "No coordinates: the listing has none and none were supplied"
+      },
+      {
+        "key": "safety",
+        "label": "Safety",
+        "score": null,
+        "source": "not_established",
+        "evidence": "Supply crimePer100k and benchmarkCrimePer100k"
+      },
+      {
+        "key": "marketMomentum",
+        "label": "Price momentum",
+        "score": null,
+        "source": "not_established",
+        "evidence": "Supply priceGrowth5yPercent"
+      },
+      {
+        "key": "demand",
+        "label": "Buyer demand",
+        "score": null,
+        "source": "not_established",
+        "evidence": "Supply medianDaysOnMarket"
+      }
+    ],
+    "fit": {
+      "priorities": "balanced",
+      "percent": null,
+      "coverage": 0,
+      "provisional": true,
+      "strengths": [],
+      "tradeoffs": []
+    },
+    "confidencePercent": 0,
+    "attribution": [],
+    "geocoding": {
+      "status": "unavailable",
+      "precision": null,
+      "matchedAs": null,
+      "attempts": 1
+    },
+    "mapStatus": "no_coordinates",
+    "principle": "Location intelligence is shown only where the report contains supporting evidence. No neighbourhood score is manufactured from missing data.",
+    "place": {
+      "suburb": "Woodstock",
+      "city": "Cape Town",
+      "province": "Western Cape"
+    },
+    "areas": [
+      {
+        "key": "transport",
+        "label": "Transport",
+        "status": "evidence_found",
+        "reason": "evidence",
+        "summary": "Woodstock (720 m) (from the listing).",
+        "items": [
+          {
+            "name": "Woodstock",
+            "distanceM": 720,
+            "source": "listing"
+          }
+        ],
+        "source": "listing",
+        "score": null
+      },
+      {
+        "key": "schools_healthcare",
+        "label": "Schools / healthcare",
+        "status": "evidence_found",
+        "reason": "evidence",
+        "summary": "Mountain Road Primary (390 m); Holy Cross Rc Primary (570 m) (from the listing).",
+        "items": [
+          {
+            "name": "Mountain Road Primary",
+            "distanceM": 390,
+            "source": "listing"
+          },
+          {
+            "name": "Holy Cross Rc Primary",
+            "distanceM": 570,
+            "source": "listing"
+          }
+        ],
+        "source": "listing",
+        "score": null
+      },
+      {
+        "key": "lifestyle_retail",
+        "label": "Lifestyle / retail",
+        "status": "evidence_found",
+        "reason": "evidence",
+        "summary": "Standard Bank (360 m); Standard Bank (640 m); Woodstock Lounge (650 m); Jamaica me Crazy (650 m) (from the listing).",
+        "items": [
+          {
+            "name": "Standard Bank",
+            "distanceM": 360,
+            "source": "listing"
+          },
+          {
+            "name": "Standard Bank",
+            "distanceM": 640,
+            "source": "listing"
+          },
+          {
+            "name": "Woodstock Lounge",
+            "distanceM": 650,
+            "source": "listing"
+          },
+          {
+            "name": "Jamaica me Crazy",
+            "distanceM": 650,
+            "source": "listing"
+          }
+        ],
+        "source": "listing",
+        "score": null
+      },
+      {
+        "key": "safety",
+        "label": "Safety indicators",
+        "status": "no_evidence",
+        "reason": "not_retrieved",
+        "summary": "No coordinates for this listing, so the area was not checked. No safety score is inferred.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "parks_recreation",
+        "label": "Parks / recreation",
+        "status": "no_evidence",
+        "reason": "not_retrieved",
+        "summary": "No coordinates for this listing, so the area was not checked.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "market_momentum",
+        "label": "Market momentum",
+        "status": "no_evidence",
+        "reason": "not_retrieved",
+        "summary": "Market evidence not retrieved. This listing: 165 days on the market and now under offer.",
+        "items": [],
+        "source": "none",
+        "score": null
+      }
+    ]
+  },
+  "documents": {
+    "jurisdiction": "cape_town",
+    "lastVerified": "2026-09-20",
+    "summary": {
+      "total": 15,
+      "free": 9,
+      "essential": 13
+    },
+    "items": [
+      {
+        "id": "valuation_roll",
+        "title": "Municipal valuation roll entry",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Free to view online"
+        },
+        "why": "The municipality's official value for the property and the rates it implies. Compare it with the asking price and with the rates figure on the listing.",
+        "howToGet": "Search by erf number, address or sectional title details, then view the valuation and estimate the monthly rates. The 2025 roll (values at 1 July 2025) applies from 1 July 2026, so the rates on the listing may still reflect the earlier roll.",
+        "url": "https://www.capetown.gov.za/propertyvaluations",
+        "resolvesRisks": [
+          "ABOVE_MUNICIPAL_VALUE",
+          "NO_COMPARABLES"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "zoning_overlay",
+        "title": "Zoning and overlay check",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Free online viewer"
+        },
+        "why": "Confirms the zoning, any overlays and current building or land-use cases. This decides what you can extend, add or let (second dwelling, guesthouse, home business).",
+        "howToGet": "Open the City Map and Zoning Viewer, accept the disclaimer, search by erf number or address and switch on the zoning layers. Zoning names SR1 and SR2 became R1 and R2 on 1 October 2025 and the viewer is still being updated.",
+        "url": "https://citymaps.capetown.gov.za/EGISViewer/",
+        "resolvesRisks": [],
+        "basis": "verified_source"
+      },
+      {
+        "id": "heritage_status",
+        "title": "Heritage status check",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Free online viewer"
+        },
+        "why": "Listed heritage properties and Heritage Protection Overlay Zones need heritage consent for changes, and structures over 60 years old generally need a permit to alter. It limits renovations and can add cost and delay.",
+        "howToGet": "In the City Map Viewer check the heritage layers (Heritage Register and Heritage Protection Overlay Zone) for the erf, or ask the City's heritage team.",
+        "url": "https://citymaps.capetown.gov.za/EGISViewer/",
+        "resolvesRisks": [
+          "OLDER_PROPERTY"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "heritage_permit_history",
+        "title": "Heritage permit history",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Committee agendas are published; the seller holds the permits"
+        },
+        "why": "Buildings over 60 years old need a Heritage Western Cape permit for alterations, and permits carry conditions. Alterations without one are illegal and can bring fines. Public committee agendas name properties and erf numbers, so past applications can be found.",
+        "howToGet": "Search Heritage Western Cape's published committee agendas and decisions for the street address and erf number, then ask the seller for the permits and proof that the conditions were met and the work matches them.",
+        "url": "https://www.hwc.org.za",
+        "resolvesRisks": [
+          "OLDER_PROPERTY",
+          "MULTI_UNIT_CONVERSION"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "lease_agreements",
+        "title": "Lease agreements and tenant records",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "free",
+          "note": "The seller holds them"
+        },
+        "why": "An existing lease generally continues after a sale, so you inherit its rent, term and deposit. The leases also test the income claim.",
+        "howToGet": "Ask for every lease, the deposit held, payment history and any notices. Have your conveyancer confirm how the sale treats each lease.",
+        "url": null,
+        "resolvesRisks": [
+          "TENANT_IN_OCCUPATION",
+          "MULTI_UNIT_CONVERSION"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "short_term_letting_evidence",
+        "title": "Short-term letting evidence and compliance",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "free",
+          "note": "The seller holds them"
+        },
+        "why": "Listing income is a claim. Platform payout statements show what was really earned. In Cape Town short-term accommodation can need Consent Use, a draft Short-Term Letting By-Law announced in February 2026 is expected to add registration, and the City has proposed commercial rates for properties let short-term over half the year from 1 July 2027. Income tax applies, and VAT registration becomes compulsory above R1 million turnover in 12 months.",
+        "howToGet": "Ask for 12 to 24 months of platform payout statements and booking calendars, the tax records, the insurance schedule, and proof of any zoning consent. Ask the City's rates department which rating category applies now and what is proposed.",
+        "url": null,
+        "resolvesRisks": [
+          "SHORT_TERM_LETTING_IN_USE",
+          "INCOME_CLAIM_UNVERIFIED",
+          "INCOME_BELOW_BOND"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "rates_account",
+        "title": "Latest rates and services account",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "free",
+          "note": "The seller has it"
+        },
+        "why": "Shows the real monthly rates and utility charges and any arrears, and whether the listing's rates figure is current.",
+        "howToGet": "Ask the agent for the seller's latest municipal statement before you offer.",
+        "url": null,
+        "resolvesRisks": [
+          "ABOVE_MUNICIPAL_VALUE"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "comparable_sales",
+        "title": "Recent sales and rentals nearby",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "agent",
+        "cost": {
+          "type": "paid",
+          "note": "Free from an agent; deeds-based reports (Lightstone, Windeed) are paid"
+        },
+        "why": "The evidence that tells you whether the asking price is fair. Three to six similar recent sales let this report benchmark the price.",
+        "howToGet": "Ask any agent for recent sold prices on nearby streets, or buy a deeds-based report. Add them to the request as comparables.",
+        "url": null,
+        "resolvesRisks": [
+          "NO_COMPARABLES"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "bond_preapproval",
+        "title": "Bond pre-approval",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Usually free through a bank or bond originator"
+        },
+        "why": "Confirms what a lender will actually approve at today's rate, which decides whether this price is within reach and strengthens your offer.",
+        "howToGet": "Apply to a bank or bond originator with your payslips and bank statements. Compare the approved amount with the income required in this report.",
+        "url": null,
+        "resolvesRisks": [],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "body_corporate_pack",
+        "title": "Body corporate pack",
+        "priority": "recommended",
+        "stage": "before_offer",
+        "whoGetsIt": "agent",
+        "cost": {
+          "type": "free",
+          "note": "Usually supplied through the agent or managing agent"
+        },
+        "why": "You buy a share of the whole scheme. The audited financial statements show the reserve fund and owners in arrears, the AGM minutes show disputes and planned special levies, and the rules show what you may and may not do.",
+        "howToGet": "If this is sectional title: ask for the latest audited financial statements, the last AGM minutes, the management and conduct rules, the sectional plan (to see what is common property or exclusive use), the insurance schedule and the levy statement including any special levies.",
+        "url": null,
+        "resolvesRisks": [
+          "LEVY_NOT_STATED",
+          "TITLE_TYPE_UNKNOWN"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "compliance_certificates",
+        "title": "Compliance certificates",
+        "priority": "essential",
+        "stage": "with_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "seller_pays",
+          "note": "Normally the seller pays; agree it in the offer"
+        },
+        "why": "The electrical certificate is a legal requirement on sale. Plumbing and beetle certificates are standard in Western Cape sales, and gas and electric fence certificates apply where fitted. Failures can mean costly repairs.",
+        "howToGet": "Ask the agent which certificates the seller will supply, and write them into the offer to purchase as conditions.",
+        "url": null,
+        "resolvesRisks": [
+          "OLDER_PROPERTY",
+          "POSSIBLE_UNAPPROVED_ADDITIONS"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "building_plans",
+        "title": "Approved building plans",
+        "priority": "essential",
+        "stage": "with_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "paid",
+          "note": "Small search fee set in the City's tariff (reported as R140 to R300); usually paid by the owner"
+        },
+        "why": "Proves every room and extension was approved. Unapproved additions can hold up a sale, insurance or a later bond and can force costly rectification.",
+        "howToGet": "Only the registered owner or an authorised architect or draughtsperson can get copies. Ask the seller to request them through the City's e-Services, or to authorise you in writing (third-party requests go through a District Information Hub). Make the offer conditional on plans that match the building.",
+        "url": "https://www.capetown.gov.za/City-Connect/Apply/Planning-building-and-development/Building-plan-applications/Apply-for-copies-of-building-plans",
+        "resolvesRisks": [
+          "POSSIBLE_UNAPPROVED_ADDITIONS",
+          "OLDER_PROPERTY"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "inspection",
+        "title": "Independent building inspection",
+        "priority": "essential",
+        "stage": "before_signing",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "paid",
+          "note": "You pay the inspector"
+        },
+        "why": "Finds roof, damp, wiring, plumbing and timber-pest problems that no certificate or listing shows, and gives you evidence to renegotiate.",
+        "howToGet": "Hire an independent inspector and make the offer subject to a satisfactory report.",
+        "url": null,
+        "resolvesRisks": [
+          "OLDER_PROPERTY",
+          "POSSIBLE_UNAPPROVED_ADDITIONS"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "title_deed",
+        "title": "Title deed and conditions of title",
+        "priority": "recommended",
+        "stage": "before_signing",
+        "whoGetsIt": "conveyancer",
+        "cost": {
+          "type": "paid",
+          "note": "Deeds search is a conveyancing cost"
+        },
+        "why": "Shows the registered owner, bonds, servitudes and restrictions, and confirms the seller can sell.",
+        "howToGet": "Ask your conveyancer to run a deeds search and read the conditions of title before you sign.",
+        "url": null,
+        "resolvesRisks": [
+          "TITLE_TYPE_UNKNOWN"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "rates_clearance",
+        "title": "Rates clearance certificate",
+        "priority": "essential",
+        "stage": "during_transfer",
+        "whoGetsIt": "conveyancer",
+        "cost": {
+          "type": "in_transfer_costs",
+          "note": "Part of the transfer costs; the seller settles any arrears"
+        },
+        "why": "Transfer cannot be registered without it (section 118 of the Municipal Systems Act). It confirms the seller has paid municipal charges for the previous 24 months and is valid for 60 days. Delays here delay your move-in.",
+        "howToGet": "The seller's conveyancer applies to the municipality. There is nothing for you to submit; ask for an update if transfer stalls.",
+        "url": null,
+        "resolvesRisks": [],
+        "basis": "verified_source"
+      }
+    ],
+    "notes": [
+      "This pack says what to get and how. The API does not fetch municipal documents: most are released only to the owner, the seller's attorney or through an interactive municipal search.",
+      "Procedures and fees change. Cape Town entries were checked against City of Cape Town pages on the date shown; other entries reflect standard South African practice, so confirm with your conveyancer."
+    ]
+  },
+  "listing": {
+    "sourceUrl": "https://www.property24.com/for-sale/woodstock/cape-town/western-cape/10164/117106348",
+    "listingNumber": "117106348",
+    "status": "under_offer",
+    "listedDate": "2026-04-09",
+    "daysOnMarket": 165,
+    "streetAddress": "42 Queens Rd, Woodstock",
+    "agency": "RE/MAX Living",
+    "agentName": "Jorg Hasenbach",
+    "receptionRooms": 4,
+    "parking": null,
+    "imageUrl": null,
+    "features": [
+      "victorian"
+    ],
+    "pointsOfInterest": [
+      {
+        "category": "Shopping",
+        "name": "Standard Bank",
+        "distanceKm": 0.36
+      },
+      {
+        "category": "Shopping",
+        "name": "Standard Bank",
+        "distanceKm": 0.64
+      },
+      {
+        "category": "Education",
+        "name": "Mountain Road Primary",
+        "distanceKm": 0.39
+      },
+      {
+        "category": "Education",
+        "name": "Holy Cross Rc Primary",
+        "distanceKm": 0.57
+      },
+      {
+        "category": "Transport and Public Services",
+        "name": "Glass recycling bins",
+        "distanceKm": 0.43
+      },
+      {
+        "category": "Transport and Public Services",
+        "name": "Woodstock",
+        "distanceKm": 0.72
+      },
+      {
+        "category": "Food and Entertainment",
+        "name": "Woodstock Lounge",
+        "distanceKm": 0.65
+      },
+      {
+        "category": "Food and Entertainment",
+        "name": "Jamaica me Crazy",
+        "distanceKm": 0.65
+      }
+    ],
+    "recentSales": {
+      "addresses": [
+        {
+          "address": "19 Devon Street",
+          "url": "https://www.property24.com/property-values/19-devon-street/woodstock/cape-town/western-cape/jr3fgw2ziunwf24tqelbxfhjlsygbdemu5cwp5acuu7siizplqsc7onajxdijgchxk4wfeu6ntzxe"
+        },
+        {
+          "address": "11A Milner Road",
+          "url": "https://www.property24.com/property-values/11a-milner-road/woodstock/cape-town/western-cape/7vjrlujsafwmnkg44bva6mmktdmehahtyqdgl2l3dnua6eoi5f4wcx6anvtbu6f72badhrp45abuy"
+        },
+        {
+          "address": "28A Dublin Street",
+          "url": "https://www.property24.com/property-values/28a-dublin-street/woodstock/cape-town/western-cape/u6vi7czypftl5s52fpgolq67odhrzt7cjrdglzx3cw3t24eg72avaz3u4xcu4om3g5b7xeibogh72"
+        },
+        {
+          "address": "85 Fairview Avenue",
+          "url": "https://www.property24.com/property-values/85-fairview-avenue/woodstock/cape-town/western-cape/xfzbfyfoe3zc5kdldburhbcg4as3t35rgzzq6czgqotzt7b26wnjod3ud44a5gctxigykkw326imm"
+        },
+        {
+          "address": "1 Balfour Street",
+          "url": "https://www.property24.com/property-values/1-balfour-street/woodstock/cape-town/western-cape/guhoptlpz7efo2r6ylizzpkj7bl423kf4u26b7dmqzkfuabsk6ejzqpoiefkiwh5rrcvolvporf4w"
+        }
+      ],
+      "pricesAvailable": false,
+      "note": "Sold prices are shown on the portal as protected images, so they are not captured. Licensed deeds data (Property24 property reports, Lightstone, Windeed) is the source for achieved prices."
+    },
+    "portalCalculator": {
+      "monthlyRepayment": 47423,
+      "onceOffCosts": 459300,
+      "minGrossMonthlyIncome": 158076,
+      "impliedInterestRatePercent": 10.5,
+      "impliedIncomeRulePercent": 30,
+      "impliedFeesAndBondCosts": 159444,
+      "eixFeesEstimate": 142500,
+      "note": "Implied from the portal's own figures, assuming no deposit and the same term. Your deposit lowers the bond."
+    },
+    "capture": {
+      "mode": "supplied_html",
+      "sections": [
+        {
+          "key": "listingDetails",
+          "status": "captured",
+          "count": 1
+        },
+        {
+          "key": "pointsOfInterest",
+          "status": "captured",
+          "count": 8
+        },
+        {
+          "key": "bondCalculator",
+          "status": "captured",
+          "count": 1
+        },
+        {
+          "key": "recentSales",
+          "status": "captured",
+          "count": 5
+        }
+      ],
+      "warning": null
+    },
+    "signals": [
+      {
+        "code": "UNDER_OFFER",
+        "evidence": "Under Offer",
+        "meaning": "An offer has been accepted, though it may still be conditional.",
+        "action": "Ask whether the offer is unconditional and whether the agent takes back-up offers."
+      },
+      {
+        "code": "MULTI_UNIT",
+        "evidence": "four individual studio",
+        "meaning": "Marketed as 4 self-contained units in one building.",
+        "action": "Confirm the approved plans and what the zoning allows in dwelling units."
+      },
+      {
+        "code": "SHORT_TERM_LETTING",
+        "evidence": "Airbnb",
+        "meaning": "3 unit(s) are let short-term.",
+        "action": "Ask for platform payout statements, booking calendars and proof the use is permitted."
+      },
+      {
+        "code": "TENANT_IN_PLACE",
+        "evidence": "long-term tenant",
+        "meaning": "A tenant occupies part of the property.",
+        "action": "Get the lease, deposit, arrears and notice terms."
+      },
+      {
+        "code": "INCOME_CLAIM",
+        "evidence": "average monthly income of approximately R40,000",
+        "meaning": "The income and yield come from the marketing text, not from statements.",
+        "action": "Ask for 12 to 24 months of income evidence and the costs that were deducted, if any."
+      },
+      {
+        "code": "PERIOD_BUILDING",
+        "evidence": "Victorian",
+        "meaning": "A period building, probably over 60 years old.",
+        "action": "Check heritage protection and the permit history for any alterations."
+      }
+    ],
+    "claims": {
+      "statedMonthlyIncome": 40000,
+      "statedYieldPercent": 10,
+      "units": 4,
+      "shortTermUnits": 3,
+      "tenantedUnits": 1
+    }
+  },
+  "incomeTest": {
+    "basis": "listing_claim",
+    "statedMonthlyIncome": 40000,
+    "statedYieldPercent": 10,
+    "impliedGrossYieldPercent": 10.1,
+    "netYieldOnClaimPercent": 8.8,
+    "bond": 42680.74,
+    "coversBond": false,
+    "monthlyShortfallVsBond": 2680.74,
+    "breakEvenMonthlyIncome": 47871.07,
+    "incomeUpliftNeededPercent": 19.7,
+    "units": 4,
+    "breakEvenPerUnit": 11967.77,
+    "nightlyRateIfAllShortTerm": [
+      {
+        "occupancyPercent": 50,
+        "nightlyRatePerUnit": 787.35
+      },
+      {
+        "occupancyPercent": 65,
+        "nightlyRatePerUnit": 605.66
+      },
+      {
+        "occupancyPercent": 80,
+        "nightlyRatePerUnit": 492.1
+      }
+    ],
+    "verdict": "The stated income of R 40 000 does not cover the bond of R 42 681, before rates, insurance, upkeep or any operating cost.",
+    "notes": [
+      "The figure is the seller's or agent's claim, not evidence.",
+      "Yield in a listing is normally gross. It ignores rates, insurance, upkeep, platform fees, cleaning, utilities, tax and vacancy.",
+      "Short-term income is seasonal and depends on platform ranking and reviews, which do not transfer with the sale."
+    ]
+  },
+  "assumptions": {
+    "vacancyAllowancePercent": 5,
+    "depositPercent": 10,
+    "interestRate": 10.5,
+    "interestRateAsOf": "2026-07-23",
+    "termYears": 20,
+    "legalAndBondFeesPercent": 3,
+    "upkeepReservePercentPerYear": 1,
+    "bondToIncomeRule": 0.3,
+    "sellingCostsPercent": 6,
+    "transferDuty": "sars_2026_27"
+  },
+  "costs": {
+    "monthly": {
+      "bond": 42680.74,
+      "rates": 1232,
+      "levy": null,
+      "upkeepReserve": 3958.33,
+      "total": 47871.07
+    },
+    "monthlyExcludes": [
+      "levy"
+    ],
+    "upfront": {
+      "deposit": 475000,
+      "transferDuty": 299856,
+      "legalAndBondFees": 142500,
+      "total": 917356
+    },
+    "incomeRequired": {
+      "grossMonthly": 142269.13,
+      "grossMonthlyIfRatesRise2Points": 161900.03
+    },
+    "bondToIncomePercent": 21.3
+  },
+  "stressTest": {
+    "interestRates": [
+      9.5,
+      10.5,
+      11.5,
+      12.5
+    ],
+    "rows": [
+      {
+        "depositPercent": 0,
+        "monthlyBond": [
+          44276.23,
+          47423.04,
+          50655.41,
+          53966.68
+        ]
+      },
+      {
+        "depositPercent": 10,
+        "monthlyBond": [
+          39848.61,
+          42680.74,
+          45589.87,
+          48570.01
+        ]
+      },
+      {
+        "depositPercent": 20,
+        "monthlyBond": [
+          35420.99,
+          37938.44,
+          40524.33,
+          43173.34
+        ]
+      }
+    ]
+  },
+  "priceEvidence": {
+    "comparables": null,
+    "municipalValue": {
+      "low": 2515093,
+      "high": 2919938,
+      "basis": "cape_town_rates_bill"
+    },
+    "pricePerM2Floor": 23750,
+    "pricePerM2Erf": 43181.82,
+    "floorToErfRatioPercent": 181.8
+  },
+  "ownership": {
+    "costBeforePrincipalMonthly": 42596.58,
+    "principalRepaidFirstMonth": 5274.49,
+    "breakEven": {
+      "requiredPriceRisePercent": 16.3,
+      "yearsByAnnualGrowth": [
+        {
+          "annualGrowthPercent": 3,
+          "years": 5.1
+        },
+        {
+          "annualGrowthPercent": 6,
+          "years": 2.6
+        },
+        {
+          "annualGrowthPercent": 9,
+          "years": 1.8
+        }
+      ]
+    },
+    "rental": null
+  },
+  "risks": [
+    {
+      "code": "TITLE_TYPE_UNKNOWN",
+      "severity": "medium",
+      "message": "Title type is unclear. Freehold and sectional title carry very different costs and rules, so confirm which this is."
+    },
+    {
+      "code": "LEVY_NOT_STATED",
+      "severity": "medium",
+      "message": "No levy is stated. Sectional title levies can add thousands a month; also ask about special levies and the reserve fund."
+    },
+    {
+      "code": "FLOOR_EXCEEDS_ERF",
+      "severity": "low",
+      "message": "Floor area is 1.8 times the erf, so this is a multi-storey building or a data error. Confirm both measurements against the title deed and the plans."
+    },
+    {
+      "code": "POSSIBLE_UNAPPROVED_ADDITIONS",
+      "severity": "low",
+      "message": "Bathrooms match or exceed bedrooms, which often follows renovations. Ask for approved building plans and confirm all additions are on them."
+    },
+    {
+      "code": "NO_BACKUP_POWER_OR_WATER",
+      "severity": "low",
+      "message": "No backup power or water is listed. Budget for an inverter or solar if load-shedding or outages matter to you."
+    },
+    {
+      "code": "NO_COMPARABLES",
+      "severity": "high",
+      "message": "No comparable sales supplied: price fairness is unproven."
+    },
+    {
+      "code": "MULTI_UNIT_CONVERSION",
+      "severity": "high",
+      "message": "Marketed as 4 self-contained units in a house. Confirm the approved plans and zoning allow that many dwelling units; an unapproved conversion can be ordered reversed and can affect insurance and your bond."
+    },
+    {
+      "code": "SHORT_TERM_LETTING_IN_USE",
+      "severity": "medium",
+      "message": "Part of the property is let short-term. In Cape Town this can need Consent Use approval, a draft Short-Term Letting By-Law is expected to add registration, and the City has proposed commercial rates for properties let short-term over half the year from 1 July 2027. Income also carries tax duties. Reviews and bookings do not transfer with the sale."
+    },
+    {
+      "code": "TENANT_IN_OCCUPATION",
+      "severity": "medium",
+      "message": "A tenant is in occupation. Get the lease, deposit and notice terms; an existing lease generally continues after a sale, so confirm your position with your conveyancer."
+    },
+    {
+      "code": "INCOME_CLAIM_UNVERIFIED",
+      "severity": "medium",
+      "message": "The listing states an income of R 40 000 a month. That is the agent's figure, not evidence, and it is normally gross."
+    },
+    {
+      "code": "INCOME_BELOW_BOND",
+      "severity": "high",
+      "message": "The stated income does not cover the bond of R 42 681 at your deposit and rate, before rates, insurance, upkeep or operating costs."
+    },
+    {
+      "code": "LISTING_UNDER_OFFER",
+      "severity": "low",
+      "message": "The listing is under offer. Ask whether that offer is unconditional and whether back-up offers are taken."
+    },
+    {
+      "code": "ABOVE_MUNICIPAL_VALUE",
+      "severity": "medium",
+      "message": "Asking is 63% to 89% above the R 2 515 093 to R 2 919 938 municipal value implied by the rates bill. Municipal values lag the market, so this is not proof of overpricing, but it is a reason to see recent sales before offering."
+    },
+    {
+      "code": "OLDER_PROPERTY",
+      "severity": "medium",
+      "message": "Period features suggest an older house. Budget for roof, damp, wiring, plumbing and timber-pest checks, and ask whether heritage rules limit alterations (structures over 60 years old generally need a permit under the National Heritage Resources Act)."
+    }
+  ],
+  "offerPlan": {
+    "beforeOffering": [
+      "Get a bond pre-approval first. This price needs about R 142 269 gross a month at 30%, and R 161 900 if rates rise 2 points.",
+      "Get 3 to 6 recent sales of similar homes nearby (agent, Lightstone or Windeed) and add them as comparables. Also check the City valuation roll for this address.",
+      "Make the offer subject to a building inspection and the compliance certificates below, not just to bond approval."
+    ],
+    "suggestedConditions": [
+      "Bond approval within a fixed number of days",
+      "A satisfactory building inspection (roof, damp, wiring, plumbing, timber pests)",
+      "Valid electrical, plumbing and beetle certificates from the seller, plus electric fence and gas certificates where applicable",
+      "Approved building plans for all structures",
+      "A written list of what stays (fittings, appliances, solar) and the occupation date"
+    ]
+  },
+  "questionsForAgent": [
+    "What did similar homes on this street sell for in the last 12 months, and how long did they take to sell?",
+    "Why is the owner selling, and how long has it been on the market? Has the price dropped?",
+    "What are the monthly levies, any special levies, and is the body corporate financially healthy (minutes and financials)?",
+    "Are there approved building plans and an occupancy certificate for the whole structure?",
+    "Are there electrical, plumbing, beetle, damp and roof compliance certificates, and who pays for them?",
+    "What is included in the sale (fittings, appliances, solar, alarm)? What is the occupation date?",
+    "Are all 4 units on the approved plans, and what does the zoning allow?",
+    "What period does the R 40 000 average cover, is it gross, and can you show the statements?",
+    "Can you provide 12 to 24 months of platform payout statements and confirm the letting is permitted by the zoning?",
+    "What are the lease terms, deposit held and notice period for the tenant?",
+    "Is the current offer unconditional, and will you take a back-up offer?"
+  ],
+  "evidence": [
+    {
+      "field": "asking_price",
+      "value": 4750000,
+      "source": "listing"
+    },
+    {
+      "field": "bedrooms",
+      "value": 4,
+      "source": "listing"
+    },
+    {
+      "field": "bathrooms",
+      "value": 4,
+      "source": "listing"
+    },
+    {
+      "field": "parking",
+      "value": null,
+      "source": "not_stated"
+    },
+    {
+      "field": "floor_area_m2",
+      "value": 200,
+      "source": "listing"
+    },
+    {
+      "field": "erf_m2",
+      "value": 110,
+      "source": "listing"
+    },
+    {
+      "field": "rates_monthly",
+      "value": 1232,
+      "source": "listing"
+    },
+    {
+      "field": "levy_monthly",
+      "value": null,
+      "source": "not_stated"
+    }
+  ],
+  "disclaimer": "Decision support only. Not a valuation, or financial, tax or legal advice. Figures rely on the stated assumptions and on the facts supplied; verify independently before any transaction."
+}

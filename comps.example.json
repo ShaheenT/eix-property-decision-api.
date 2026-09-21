@@ -1,0 +1,5 @@
+[
+  { "address": "12 Example St, Observatory", "price": 3050000, "floorSqm": 130, "erfSqm": 210, "date": "2026-06-14" },
+  { "address": "4 Sample Rd, Observatory", "price": 3200000, "floorSqm": 145, "erfSqm": 240, "date": "2026-05-02" },
+  { "address": "9 Test Ave, Observatory", "price": 2900000, "floorSqm": 120, "erfSqm": 190, "date": "2026-03-21" }
+]

@@ -1,0 +1,648 @@
+{
+  "id": "dec_4257ebe0cabc4341b385",
+  "schemaVersion": "1.0",
+  "engineVersion": "1.0.0",
+  "generatedAt": "2026-09-21T10:03:10.428Z",
+  "property": {
+    "address": null,
+    "title": null,
+    "suburb": null,
+    "city": "Cape Town",
+    "propertyType": "house",
+    "titleType": "unknown",
+    "askingPrice": 3500000
+  },
+  "verdict": {
+    "code": "GATHER_EVIDENCE",
+    "status": "Gather evidence",
+    "summary": "Nothing here proves the price is fair yet. Add recent comparable sales before you make an offer.",
+    "readiness": 39
+  },
+  "scorecard": {
+    "scoringVersion": "2026.1",
+    "investmentScore": {
+      "value": 64,
+      "band": "Fair",
+      "provisional": true,
+      "components": [
+        {
+          "key": "price_position",
+          "label": "Price against municipal value",
+          "weightPercent": 50,
+          "score": 47,
+          "basis": "asking 22.0% above the municipal value bracket"
+        },
+        {
+          "key": "property_risks",
+          "label": "Property and deal risks",
+          "weightPercent": 50,
+          "score": 81,
+          "basis": "2 flags raised"
+        }
+      ]
+    },
+    "riskScore": {
+      "value": 24,
+      "band": "Low",
+      "provisional": true,
+      "drivers": [
+        "Asking is 14% to 32% above the R 2 659 247 to R 3 080 485 municipal value implied by the rates bill"
+      ]
+    },
+    "confidence": {
+      "percent": 38,
+      "band": "Low",
+      "areas": [
+        {
+          "area": "Asking price",
+          "pts": 10,
+          "max": 10,
+          "status": "established"
+        },
+        {
+          "area": "Physical facts",
+          "pts": 15,
+          "max": 20,
+          "status": "partial"
+        },
+        {
+          "area": "Rates",
+          "pts": 5,
+          "max": 5,
+          "status": "established"
+        },
+        {
+          "area": "Levy and title type",
+          "pts": 0,
+          "max": 10,
+          "status": "missing"
+        },
+        {
+          "area": "Price evidence",
+          "pts": 8,
+          "max": 30,
+          "status": "partial"
+        },
+        {
+          "area": "Rental evidence",
+          "pts": 0,
+          "max": 15,
+          "status": "missing"
+        },
+        {
+          "area": "Buyer finances",
+          "pts": 0,
+          "max": 10,
+          "status": "missing"
+        }
+      ]
+    },
+    "decision": {
+      "label": "PROCEED WITH CAUTION",
+      "reasons": [
+        "Asking is R 3 500 000 against a municipal value bracket of R 2 659 247 to R 3 080 485; no usable comparable sales were supplied.",
+        "Confidence is 38%, so this is provisional until the missing evidence is added.",
+        "Asking is 14% to 32% above the R 2 659 247 to R 3 080 485 municipal value implied by the rates bill."
+      ],
+      "nextStep": "Add the missing evidence first: price evidence and rental evidence."
+    },
+    "rental": null
+  },
+  "marketData": {
+    "source": "none",
+    "status": "ok",
+    "salesReceived": 0,
+    "rentalsReceived": 0
+  },
+  "displayGuidance": {
+    "investmentScore": "show_as_provisional",
+    "decisionLabel": "show_as_provisional",
+    "priceVerdict": "hide",
+    "rentEstimate": "hide",
+    "yieldAndCashFlow": "hide",
+    "neighbourhoodFit": "hide",
+    "requiredNotices": [
+      "Provisional: this result rests on 38% of the evidence a full decision needs, and the price is not yet checked against comparable sales.",
+      "No price verdict is shown because there is not enough comparable evidence."
+    ]
+  },
+  "neighbourhood": {
+    "status": "not_requested",
+    "location": null,
+    "archetype": null,
+    "dimensions": [],
+    "fit": null,
+    "confidencePercent": 0,
+    "attribution": [],
+    "geocoding": {
+      "status": "not_needed",
+      "precision": null,
+      "matchedAs": null,
+      "attempts": 0
+    },
+    "mapStatus": "not_requested",
+    "principle": "Location intelligence is shown only where the report contains supporting evidence. No neighbourhood score is manufactured from missing data.",
+    "place": {
+      "suburb": null,
+      "city": "Cape Town",
+      "province": "Western Cape"
+    },
+    "areas": [
+      {
+        "key": "transport",
+        "label": "Transport",
+        "status": "no_evidence",
+        "reason": "not_requested",
+        "summary": "Not checked: the neighbourhood layer was not requested.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "schools_healthcare",
+        "label": "Schools / healthcare",
+        "status": "no_evidence",
+        "reason": "not_requested",
+        "summary": "Not checked: the neighbourhood layer was not requested.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "lifestyle_retail",
+        "label": "Lifestyle / retail",
+        "status": "no_evidence",
+        "reason": "not_requested",
+        "summary": "Not checked: the neighbourhood layer was not requested.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "safety",
+        "label": "Safety indicators",
+        "status": "no_evidence",
+        "reason": "not_requested",
+        "summary": "Not checked: the neighbourhood layer was not requested. No safety score is inferred.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "parks_recreation",
+        "label": "Parks / recreation",
+        "status": "no_evidence",
+        "reason": "not_requested",
+        "summary": "Not checked: the neighbourhood layer was not requested.",
+        "items": [],
+        "source": "none",
+        "score": null
+      },
+      {
+        "key": "market_momentum",
+        "label": "Market momentum",
+        "status": "no_evidence",
+        "reason": "not_requested",
+        "summary": "Not checked: the neighbourhood layer was not requested.",
+        "items": [],
+        "source": "none",
+        "score": null
+      }
+    ]
+  },
+  "documents": {
+    "jurisdiction": "cape_town",
+    "lastVerified": "2026-09-20",
+    "summary": {
+      "total": 12,
+      "free": 6,
+      "essential": 7
+    },
+    "items": [
+      {
+        "id": "valuation_roll",
+        "title": "Municipal valuation roll entry",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Free to view online"
+        },
+        "why": "The municipality's official value for the property and the rates it implies. Compare it with the asking price and with the rates figure on the listing.",
+        "howToGet": "Search by erf number, address or sectional title details, then view the valuation and estimate the monthly rates. The 2025 roll (values at 1 July 2025) applies from 1 July 2026, so the rates on the listing may still reflect the earlier roll.",
+        "url": "https://www.capetown.gov.za/propertyvaluations",
+        "resolvesRisks": [
+          "ABOVE_MUNICIPAL_VALUE",
+          "NO_COMPARABLES"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "rates_account",
+        "title": "Latest rates and services account",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "free",
+          "note": "The seller has it"
+        },
+        "why": "Shows the real monthly rates and utility charges and any arrears, and whether the listing's rates figure is current.",
+        "howToGet": "Ask the agent for the seller's latest municipal statement before you offer.",
+        "url": null,
+        "resolvesRisks": [
+          "ABOVE_MUNICIPAL_VALUE"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "comparable_sales",
+        "title": "Recent sales and rentals nearby",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "agent",
+        "cost": {
+          "type": "paid",
+          "note": "Free from an agent; deeds-based reports (Lightstone, Windeed) are paid"
+        },
+        "why": "The evidence that tells you whether the asking price is fair. Three to six similar recent sales let this report benchmark the price.",
+        "howToGet": "Ask any agent for recent sold prices on nearby streets, or buy a deeds-based report. Add them to the request as comparables.",
+        "url": null,
+        "resolvesRisks": [
+          "NO_COMPARABLES"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "bond_preapproval",
+        "title": "Bond pre-approval",
+        "priority": "essential",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Usually free through a bank or bond originator"
+        },
+        "why": "Confirms what a lender will actually approve at today's rate, which decides whether this price is within reach and strengthens your offer.",
+        "howToGet": "Apply to a bank or bond originator with your payslips and bank statements. Compare the approved amount with the income required in this report.",
+        "url": null,
+        "resolvesRisks": [],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "zoning_overlay",
+        "title": "Zoning and overlay check",
+        "priority": "recommended",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Free online viewer"
+        },
+        "why": "Confirms the zoning, any overlays and current building or land-use cases. This decides what you can extend, add or let (second dwelling, guesthouse, home business).",
+        "howToGet": "Open the City Map and Zoning Viewer, accept the disclaimer, search by erf number or address and switch on the zoning layers. Zoning names SR1 and SR2 became R1 and R2 on 1 October 2025 and the viewer is still being updated.",
+        "url": "https://citymaps.capetown.gov.za/EGISViewer/",
+        "resolvesRisks": [],
+        "basis": "verified_source"
+      },
+      {
+        "id": "heritage_status",
+        "title": "Heritage status check",
+        "priority": "recommended",
+        "stage": "before_offer",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "free",
+          "note": "Free online viewer"
+        },
+        "why": "Listed heritage properties and Heritage Protection Overlay Zones need heritage consent for changes, and structures over 60 years old generally need a permit to alter. It limits renovations and can add cost and delay.",
+        "howToGet": "In the City Map Viewer check the heritage layers (Heritage Register and Heritage Protection Overlay Zone) for the erf, or ask the City's heritage team.",
+        "url": "https://citymaps.capetown.gov.za/EGISViewer/",
+        "resolvesRisks": [],
+        "basis": "verified_source"
+      },
+      {
+        "id": "body_corporate_pack",
+        "title": "Body corporate pack",
+        "priority": "recommended",
+        "stage": "before_offer",
+        "whoGetsIt": "agent",
+        "cost": {
+          "type": "free",
+          "note": "Usually supplied through the agent or managing agent"
+        },
+        "why": "You buy a share of the whole scheme. The audited financial statements show the reserve fund and owners in arrears, the AGM minutes show disputes and planned special levies, and the rules show what you may and may not do.",
+        "howToGet": "If this is sectional title: ask for the latest audited financial statements, the last AGM minutes, the management and conduct rules, the sectional plan (to see what is common property or exclusive use), the insurance schedule and the levy statement including any special levies.",
+        "url": null,
+        "resolvesRisks": [
+          "LEVY_NOT_STATED",
+          "TITLE_TYPE_UNKNOWN"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "compliance_certificates",
+        "title": "Compliance certificates",
+        "priority": "essential",
+        "stage": "with_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "seller_pays",
+          "note": "Normally the seller pays; agree it in the offer"
+        },
+        "why": "The electrical certificate is a legal requirement on sale. Plumbing and beetle certificates are standard in Western Cape sales, and gas and electric fence certificates apply where fitted. Failures can mean costly repairs.",
+        "howToGet": "Ask the agent which certificates the seller will supply, and write them into the offer to purchase as conditions.",
+        "url": null,
+        "resolvesRisks": [
+          "POSSIBLE_UNAPPROVED_ADDITIONS"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "building_plans",
+        "title": "Approved building plans",
+        "priority": "essential",
+        "stage": "with_offer",
+        "whoGetsIt": "seller",
+        "cost": {
+          "type": "paid",
+          "note": "Small search fee set in the City's tariff (reported as R140 to R300); usually paid by the owner"
+        },
+        "why": "Proves every room and extension was approved. Unapproved additions can hold up a sale, insurance or a later bond and can force costly rectification.",
+        "howToGet": "Only the registered owner or an authorised architect or draughtsperson can get copies. Ask the seller to request them through the City's e-Services, or to authorise you in writing (third-party requests go through a District Information Hub). Make the offer conditional on plans that match the building.",
+        "url": "https://www.capetown.gov.za/City-Connect/Apply/Planning-building-and-development/Building-plan-applications/Apply-for-copies-of-building-plans",
+        "resolvesRisks": [
+          "POSSIBLE_UNAPPROVED_ADDITIONS"
+        ],
+        "basis": "verified_source"
+      },
+      {
+        "id": "inspection",
+        "title": "Independent building inspection",
+        "priority": "recommended",
+        "stage": "before_signing",
+        "whoGetsIt": "you",
+        "cost": {
+          "type": "paid",
+          "note": "You pay the inspector"
+        },
+        "why": "Finds roof, damp, wiring, plumbing and timber-pest problems that no certificate or listing shows, and gives you evidence to renegotiate.",
+        "howToGet": "Hire an independent inspector and make the offer subject to a satisfactory report.",
+        "url": null,
+        "resolvesRisks": [
+          "POSSIBLE_UNAPPROVED_ADDITIONS"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "title_deed",
+        "title": "Title deed and conditions of title",
+        "priority": "recommended",
+        "stage": "before_signing",
+        "whoGetsIt": "conveyancer",
+        "cost": {
+          "type": "paid",
+          "note": "Deeds search is a conveyancing cost"
+        },
+        "why": "Shows the registered owner, bonds, servitudes and restrictions, and confirms the seller can sell.",
+        "howToGet": "Ask your conveyancer to run a deeds search and read the conditions of title before you sign.",
+        "url": null,
+        "resolvesRisks": [
+          "TITLE_TYPE_UNKNOWN"
+        ],
+        "basis": "standard_practice"
+      },
+      {
+        "id": "rates_clearance",
+        "title": "Rates clearance certificate",
+        "priority": "essential",
+        "stage": "during_transfer",
+        "whoGetsIt": "conveyancer",
+        "cost": {
+          "type": "in_transfer_costs",
+          "note": "Part of the transfer costs; the seller settles any arrears"
+        },
+        "why": "Transfer cannot be registered without it (section 118 of the Municipal Systems Act). It confirms the seller has paid municipal charges for the previous 24 months and is valid for 60 days. Delays here delay your move-in.",
+        "howToGet": "The seller's conveyancer applies to the municipality. There is nothing for you to submit; ask for an update if transfer stalls.",
+        "url": null,
+        "resolvesRisks": [],
+        "basis": "verified_source"
+      }
+    ],
+    "notes": [
+      "This pack says what to get and how. The API does not fetch municipal documents: most are released only to the owner, the seller's attorney or through an interactive municipal search.",
+      "Procedures and fees change. Cape Town entries were checked against City of Cape Town pages on the date shown; other entries reflect standard South African practice, so confirm with your conveyancer."
+    ]
+  },
+  "listing": null,
+  "incomeTest": null,
+  "assumptions": {
+    "vacancyAllowancePercent": 5,
+    "depositPercent": 10,
+    "interestRate": 10.5,
+    "interestRateAsOf": "2026-07-23",
+    "termYears": 20,
+    "legalAndBondFeesPercent": 3,
+    "upkeepReservePercentPerYear": 1,
+    "bondToIncomeRule": 0.3,
+    "sellingCostsPercent": 6,
+    "transferDuty": "sars_2026_27"
+  },
+  "costs": {
+    "monthly": {
+      "bond": 31448.97,
+      "rates": 1318,
+      "levy": null,
+      "upkeepReserve": 2916.67,
+      "total": 35683.63
+    },
+    "monthlyExcludes": [
+      "levy"
+    ],
+    "upfront": {
+      "deposit": 350000,
+      "transferDuty": 162356,
+      "legalAndBondFees": 105000,
+      "total": 617356
+    },
+    "incomeRequired": {
+      "grossMonthly": 104829.89,
+      "grossMonthlyIfRatesRise2Points": 119294.76
+    },
+    "bondToIncomePercent": null
+  },
+  "stressTest": {
+    "interestRates": [
+      9.5,
+      10.5,
+      11.5,
+      12.5
+    ],
+    "rows": [
+      {
+        "depositPercent": 0,
+        "monthlyBond": [
+          32624.59,
+          34943.3,
+          37325.04,
+          39764.92
+        ]
+      },
+      {
+        "depositPercent": 10,
+        "monthlyBond": [
+          29362.13,
+          31448.97,
+          33592.53,
+          35788.43
+        ]
+      },
+      {
+        "depositPercent": 20,
+        "monthlyBond": [
+          26099.67,
+          27954.64,
+          29860.03,
+          31811.94
+        ]
+      }
+    ]
+  },
+  "priceEvidence": {
+    "comparables": null,
+    "municipalValue": {
+      "low": 2659247,
+      "high": 3080485,
+      "basis": "cape_town_rates_bill"
+    },
+    "pricePerM2Floor": null,
+    "pricePerM2Erf": 17500,
+    "floorToErfRatioPercent": null
+  },
+  "ownership": {
+    "costBeforePrincipalMonthly": 31797.17,
+    "principalRepaidFirstMonth": 3886.47,
+    "breakEven": {
+      "requiredPriceRisePercent": 14.5,
+      "yearsByAnnualGrowth": [
+        {
+          "annualGrowthPercent": 3,
+          "years": 4.6
+        },
+        {
+          "annualGrowthPercent": 6,
+          "years": 2.3
+        },
+        {
+          "annualGrowthPercent": 9,
+          "years": 1.6
+        }
+      ]
+    },
+    "rental": null
+  },
+  "risks": [
+    {
+      "code": "FLOOR_AREA_MISSING",
+      "severity": "medium",
+      "message": "Floor size is missing, so R/m² comparisons are not possible. Ask the agent for the measured floor area."
+    },
+    {
+      "code": "TITLE_TYPE_UNKNOWN",
+      "severity": "medium",
+      "message": "Title type is unclear. Freehold and sectional title carry very different costs and rules, so confirm which this is."
+    },
+    {
+      "code": "LEVY_NOT_STATED",
+      "severity": "medium",
+      "message": "No levy is stated. Sectional title levies can add thousands a month; also ask about special levies and the reserve fund."
+    },
+    {
+      "code": "POSSIBLE_UNAPPROVED_ADDITIONS",
+      "severity": "low",
+      "message": "Bathrooms match or exceed bedrooms, which often follows renovations. Ask for approved building plans and confirm all additions are on them."
+    },
+    {
+      "code": "NO_BACKUP_POWER_OR_WATER",
+      "severity": "low",
+      "message": "No backup power or water is listed. Budget for an inverter or solar if load-shedding or outages matter to you."
+    },
+    {
+      "code": "NO_COMPARABLES",
+      "severity": "high",
+      "message": "No comparable sales supplied: price fairness is unproven."
+    },
+    {
+      "code": "ABOVE_MUNICIPAL_VALUE",
+      "severity": "medium",
+      "message": "Asking is 14% to 32% above the R 2 659 247 to R 3 080 485 municipal value implied by the rates bill. Municipal values lag the market, so this is not proof of overpricing, but it is a reason to see recent sales before offering."
+    }
+  ],
+  "offerPlan": {
+    "beforeOffering": [
+      "Get a bond pre-approval first. This price needs about R 104 830 gross a month at 30%, and R 119 295 if rates rise 2 points.",
+      "Get 3 to 6 recent sales of similar homes nearby (agent, Lightstone or Windeed) and add them as comparables. Also check the City valuation roll for this address.",
+      "Make the offer subject to a building inspection and the compliance certificates below, not just to bond approval."
+    ],
+    "suggestedConditions": [
+      "Bond approval within a fixed number of days",
+      "A satisfactory building inspection (roof, damp, wiring, plumbing, timber pests)",
+      "Valid electrical, plumbing and beetle certificates from the seller, plus electric fence and gas certificates where applicable",
+      "Approved building plans for all structures",
+      "A written list of what stays (fittings, appliances, solar) and the occupation date"
+    ]
+  },
+  "questionsForAgent": [
+    "What did similar homes on this street sell for in the last 12 months, and how long did they take to sell?",
+    "Why is the owner selling, and how long has it been on the market? Has the price dropped?",
+    "What are the monthly levies, any special levies, and is the body corporate financially healthy (minutes and financials)?",
+    "Are there approved building plans and an occupancy certificate for the whole structure?",
+    "Are there electrical, plumbing, beetle, damp and roof compliance certificates, and who pays for them?",
+    "What is included in the sale (fittings, appliances, solar, alarm)? What is the occupation date?",
+    "What is the measured floor area?"
+  ],
+  "evidence": [
+    {
+      "field": "asking_price",
+      "value": 3500000,
+      "source": "supplied"
+    },
+    {
+      "field": "bedrooms",
+      "value": 3,
+      "source": "supplied"
+    },
+    {
+      "field": "bathrooms",
+      "value": 3,
+      "source": "supplied"
+    },
+    {
+      "field": "parking",
+      "value": 2,
+      "source": "supplied"
+    },
+    {
+      "field": "floor_area_m2",
+      "value": null,
+      "source": "not_stated"
+    },
+    {
+      "field": "erf_m2",
+      "value": 200,
+      "source": "supplied"
+    },
+    {
+      "field": "rates_monthly",
+      "value": 1318,
+      "source": "supplied"
+    },
+    {
+      "field": "levy_monthly",
+      "value": null,
+      "source": "not_stated"
+    }
+  ],
+  "disclaimer": "Decision support only. Not a valuation, or financial, tax or legal advice. Figures rely on the stated assumptions and on the facts supplied; verify independently before any transaction."
+}

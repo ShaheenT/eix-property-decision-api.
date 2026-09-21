@@ -1,0 +1,12 @@
+{
+  "property": {
+    "askingPrice": 3500000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": 2,
+    "erfM2": 200,
+    "ratesMonthly": 1318,
+    "city": "Cape Town",
+    "propertyType": "house"
+  }
+}

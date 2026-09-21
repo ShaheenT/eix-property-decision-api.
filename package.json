@@ -1,0 +1,26 @@
+{
+  "name": "property-decision-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "analyze": "tsx src/cli.ts",
+    "test": "NODE_OPTIONS='--import tsx' cucumber-js",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/api.ts",
+    "calibrate": "tsx src/calibrate.ts",
+    "smoke": "tsx src/smoke.ts"
+  },
+  "dependencies": {
+    "playwright": "1.49.1",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "ajv": "^8.17.1"
+  }
+}

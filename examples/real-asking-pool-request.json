@@ -1,0 +1,105 @@
+{
+  "property": {
+    "askingPrice": 3500000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": 2,
+    "erfM2": 200,
+    "ratesMonthly": 1318,
+    "titleType": "freehold",
+    "city": "Cape Town",
+    "propertyType": "house"
+  },
+  "buyer": {
+    "profile": "first_time"
+  },
+  "comparables": [
+    {
+      "priceType": "asking",
+      "price": 1995000,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "floorAreaM2": 117,
+      "erfM2": 117,
+      "soldDate": "2024-09-22",
+      "sourceUrl": "https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-114969727"
+    },
+    {
+      "priceType": "asking",
+      "price": 3300000,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "erfM2": 157,
+      "sourceUrl": "https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-115287134"
+    },
+    {
+      "priceType": "asking",
+      "price": 3500000,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "erfM2": 133,
+      "soldDate": "2025-04-08",
+      "sourceUrl": "https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-115838890"
+    },
+    {
+      "priceType": "asking",
+      "price": 1899000,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "erfM2": 120,
+      "soldDate": "2025-05-21",
+      "sourceUrl": "https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-116002783"
+    },
+    {
+      "priceType": "asking",
+      "price": 2950000,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "floorAreaM2": 117,
+      "erfM2": 270,
+      "soldDate": "2024-10-02",
+      "sourceUrl": "https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-115010647"
+    },
+    {
+      "priceType": "asking",
+      "price": 4250000,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "floorAreaM2": 151,
+      "erfM2": 246,
+      "sourceUrl": "https://m.chaseveritt.co.za/results/residential/for-sale/cape-town/observatory/house/4257501"
+    },
+    {
+      "priceType": "asking",
+      "price": 3950000,
+      "bedrooms": 4,
+      "propertyType": "house",
+      "erfM2": 357,
+      "sourceUrl": "https://property.mg.co.za/4-bedroom-house-for-sale-in-observatory-115569516"
+    },
+    {
+      "priceType": "asking",
+      "price": 2650000,
+      "bedrooms": 2,
+      "propertyType": "house",
+      "floorAreaM2": 122,
+      "erfM2": 244,
+      "sourceUrl": "https://property.mg.co.za/2-bedroom-house-for-sale-in-observatory-115241686"
+    },
+    {
+      "priceType": "asking",
+      "price": 2795000,
+      "bedrooms": 2,
+      "propertyType": "house",
+      "sourceUrl": "https://property.mg.co.za/2-bedroom-house-for-sale-in-observatory-114975777"
+    },
+    {
+      "priceType": "asking",
+      "price": 5759999,
+      "bedrooms": 3,
+      "propertyType": "house",
+      "soldDate": "2025-06-15",
+      "sourceUrl": "https://www.greeff.co.za/results/residential/for-sale/cape-town/observatory/house/1785769"
+    }
+  ]
+}
