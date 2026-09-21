@@ -1,0 +1,9 @@
+# One listing URL per line. Listings sell and expire, so refresh a few of these now and then.
+https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-115838890
+https://property.mg.co.za/3-bedroom-house-for-sale-in-observatory-115010647
+https://property.mg.co.za/3-bedroom-apartment-flat-for-sale-in-observatory-115117109
+https://property.mg.co.za/3-bedroom-house-to-rent-in-observatory-115483730
+https://m.chaseveritt.co.za/results/residential/for-sale/cape-town/observatory/house/4257501
+https://www.greeff.co.za/results/residential/for-sale/cape-town/observatory/house/1785769
+# Live Property24 page used to build the full capture (may be sold or withdrawn by now)
+https://www.property24.com/for-sale/woodstock/cape-town/western-cape/10164/117106348

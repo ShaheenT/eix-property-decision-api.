@@ -1,0 +1,78 @@
+{
+  "property": {
+    "askingPrice": 3500000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parking": 2,
+    "floorAreaM2": 140,
+    "erfM2": 200,
+    "ratesMonthly": 1318,
+    "titleType": "freehold",
+    "city": "Cape Town",
+    "propertyType": "house"
+  },
+  "buyer": {
+    "profile": "first_time",
+    "grossMonthlyIncome": 150000
+  },
+  "comparables": [
+    {
+      "price": 3000000,
+      "floorAreaM2": 130,
+      "address": "Illustrative sale 1",
+      "soldDate": "2026-06-01"
+    },
+    {
+      "price": 3150000,
+      "floorAreaM2": 135,
+      "address": "Illustrative sale 2",
+      "soldDate": "2026-06-01"
+    },
+    {
+      "price": 3300000,
+      "floorAreaM2": 140,
+      "address": "Illustrative sale 3",
+      "soldDate": "2026-06-01"
+    },
+    {
+      "price": 3250000,
+      "floorAreaM2": 138,
+      "address": "Illustrative sale 4",
+      "soldDate": "2026-06-01"
+    },
+    {
+      "price": 3100000,
+      "floorAreaM2": 132,
+      "address": "Illustrative sale 5",
+      "soldDate": "2026-06-01"
+    },
+    {
+      "price": 3400000,
+      "floorAreaM2": 145,
+      "address": "Illustrative sale 6",
+      "soldDate": "2026-06-01"
+    }
+  ],
+  "rentalComparables": [
+    {
+      "monthlyRent": 20000,
+      "floorAreaM2": 130,
+      "address": "Illustrative rental 1"
+    },
+    {
+      "monthlyRent": 22000,
+      "floorAreaM2": 140,
+      "address": "Illustrative rental 2"
+    },
+    {
+      "monthlyRent": 21000,
+      "floorAreaM2": 135,
+      "address": "Illustrative rental 3"
+    },
+    {
+      "monthlyRent": 24000,
+      "floorAreaM2": 150,
+      "address": "Illustrative rental 4"
+    }
+  ]
+}

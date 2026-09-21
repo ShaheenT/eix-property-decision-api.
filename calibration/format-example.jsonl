@@ -1,0 +1,3 @@
+{"label":"BUY","score":85,"confidence":90,"askingPrice":3000000,"outcome":{"soldPrice":2970000,"expertLabel":"BUY","realizedReturnPercent":9}}
+{"label":"NEGOTIATE","score":58,"confidence":80,"askingPrice":3500000,"outcome":{"soldPrice":3200000,"expertLabel":"NEGOTIATE","realizedReturnPercent":3}}
+{"label":"WALK AWAY","score":30,"confidence":85,"askingPrice":4500000,"outcome":{"expertLabel":"WALK AWAY","realizedReturnPercent":-2}}

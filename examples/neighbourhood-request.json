@@ -1,0 +1,29 @@
+{
+  "property": {
+    "askingPrice": 3500000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "floorAreaM2": 140,
+    "erfM2": 200,
+    "ratesMonthly": 1318,
+    "titleType": "freehold",
+    "city": "Cape Town"
+  },
+  "buyer": {
+    "profile": "first_time",
+    "grossMonthlyIncome": 150000
+  },
+  "neighbourhood": {
+    "location": {
+      "lat": -33.93,
+      "lng": 18.47
+    },
+    "priorities": "family",
+    "metrics": {
+      "crimePer100k": 9000,
+      "benchmarkCrimePer100k": 6000,
+      "priceGrowth5yPercent": 45,
+      "medianDaysOnMarket": 50
+    }
+  }
+}
